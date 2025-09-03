@@ -1,0 +1,14 @@
+export default function Footer() {
+  return (
+    <footer className="border-t mt-12" style={{ borderColor: "var(--border)", background: "var(--bg)" }}>
+      <div className="mx-auto max-w-5xl px-4 py-6 text-sm flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
+        <p style={{ color: "var(--muted)" }}>© {new Date().getFullYear()} Siraat Lex</p>
+        <div className="flex gap-4">
+          <a href="#" className="underline" style={{ color: "var(--brand)" }}>Instagram</a>
+          <a href="#" className="underline" style={{ color: "var(--brand)" }}>Facebook</a>
+          <a href="#" className="underline" style={{ color: "var(--brand)" }}>YouTube</a>
+        </div>
+      </div>
+    </footer>
+  );
+}
