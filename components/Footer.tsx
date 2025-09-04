@@ -5,8 +5,6 @@ export default function Footer() {
         <p style={{ color: "var(--muted)" }}>© {new Date().getFullYear()} Siraat Lex</p>
         <div className="flex gap-4">
           <a href="#" className="underline" style={{ color: "var(--brand)" }}>Instagram</a>
-          <a href="#" className="underline" style={{ color: "var(--brand)" }}>Facebook</a>
-          <a href="#" className="underline" style={{ color: "var(--brand)" }}>YouTube</a>
         </div>
       </div>
     </footer>
